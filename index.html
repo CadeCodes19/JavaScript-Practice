@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice JavaScript</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Simple Calculators</h1>
+      <p>
+        this is a simple website made to practice my html css and javascript
+      </p>
+    </header>
+
+    <section class="pyt-calc">
+      <div class="text-ctn">
+        <h1>Pythagoream Calculator</h1>
+        <p class="description">
+          The <i>Pythagoream Theorem</i> is usually used in trigonometry with
+          the formula <i>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup> </i>,
+          wherein each variable represent a side
+        </p>
+      </div>
+      <div class="inpCtn">
+        <div class="input-ctn">
+          <label for="s1">Enter Side 1: </label>
+          <input type="text" id="s1" />
+        </div>
+        <div class="input-ctn">
+          <label for="s2">Enter Side 2: </label>
+          <input type="text" id="s2" />
+        </div>
+        <div class="input-ctn">
+          <label for="output">Side 3 is: </label><input readonly id="output" />
+        </div>
+        <button id="Submit">Submit</button>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
