@@ -2,8 +2,15 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
-
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
 .pyt-calc {
   min-height: 50vh;
   background-color: rgb(234, 234, 211);
