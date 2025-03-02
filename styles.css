@@ -120,7 +120,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  background-image: url(/pictures/rpsbackground.jpg);
+  background-image: url(pictures/rpsbackground.jpg);
   background-size: contain;
   background-repeat: round;
   min-height: 50vh;
@@ -152,19 +152,19 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(/pictures/rock.jpg);
+  background-image: url(pictures/rock.jpg);
 }
 
 #paper {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(/pictures/paper.jpg);
+  background-image: url(pictures/paper.jpg);
 }
 
 #scissors {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(/pictures/scissors.jpg);
+  background-image: url(pictures/scissors.jpg);
 }
